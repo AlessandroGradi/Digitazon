@@ -1,0 +1,27 @@
+.boxlogo {
+    background-color: rgb(166, 220, 228);
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+.boxbrand {
+    background-color: rgb(187, 169, 10);
+    width: 400px;
+    height: 400px;
+    float: right;
+}
+
+header::after {
+    content:"";
+    clear: both;
+    display: block;
+}
+
+#logo {
+    height: fit-content ;
+}
+
+#brandname {
+    text-align: center; 
+}
