@@ -1,0 +1,46 @@
+a {
+    text-decoration: none;
+  }
+  
+  a:link {
+    color:black
+  }
+  
+  a, li a:visited {
+    color:black;
+  }
+  
+  a[href="/melange"] {
+    color:red;
+  }
+  
+  a[href="/the-one-ring"] {
+    color:gold;
+  }
+  
+  /*span*/
+  
+  .movies-quotes span:first-child{
+    font-weight: bold;
+    font-style: normal
+  }
+  
+  .movies-quotes span:first-child::after{
+      content: "«";
+  }
+  
+  .movies-quotes span:nth-child(2)::after{
+      content: "»";
+  }
+  /* cuore*/
+  
+  input[type="checkbox"]:checked + span:after {
+    content:"❤"
+  }
+  
+  
+  /*bottone che sparisce*/
+  
+  button:hover {
+    visibility: hidden
+  }

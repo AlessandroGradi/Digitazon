@@ -1,0 +1,28 @@
+.logo {
+    width: 100px;
+}
+
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page-header nav {
+    background-color: #89b3d7;
+    padding: 0.7rem;
+}
+
+#page-header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#page-header nav ul li {
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    background-color: blue;
+    padding:  2rem;
+
+    text-align: center;
+}
