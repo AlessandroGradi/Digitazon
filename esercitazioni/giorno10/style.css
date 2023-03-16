@@ -1,0 +1,82 @@
+html {
+    display:flex;
+}
+
+header div {
+    display:flex;
+}
+
+header {
+    margin: 0 0 20px 0;
+    padding: 10px 0 20px 0;
+    border-bottom: 1px solid black;
+}
+
+.sections {
+    margin-left: auto;
+    flex-grow: 0;
+    text-align: center;
+}
+
+.enroll span {
+    margin-left: 0.3rem;
+}
+.sections ol {
+    list-style: none;
+    width:300px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.enroll {
+    margin-left: auto;
+    display:flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.center img {
+    padding: 0 1rem 0 1rem;
+}
+
+.center img {
+    width: 130px;
+    height: 200px;
+}
+
+/*
+.center div {
+    display:flex;
+}
+*/
+
+.center > div span {
+    display:flex;
+    justify-content: center;
+}
+
+display-photo-1:hover ~ div .sentence-1,
+display-photo-2:hover ~ div .sentence-2,
+display-photo-3:hover ~ div .sentence-3,
+display-photo-4:hover ~ div .sentence-4,
+display-photo-5:hover ~ div .sentence-5,
+display-photo-6:hover ~ div .sentence-6,
+display-photo-7:hover ~ div .sentence-7,
+
+{
+    display:block
+}
