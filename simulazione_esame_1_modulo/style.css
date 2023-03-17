@@ -1,0 +1,130 @@
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 91%);
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #79ffd7;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+button {
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    opacity: 85%;
+}
+
+button:hover img {
+    width: 110%;
+}
+
+#follow {
+    background-color: rgb(186, 186, 186);
+}
+
+button:active {
+    opacity: 100% ;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+nav {
+    flex-grow: 1;
+    flex-wrap: wrap;
+    margin-right: 0,5rem;
+}
+
+nav div:nth-child(2), nav div:nth-child(3) {
+    width: 140px;
+    padding-bottom: 4rem;
+}
+nav div:nth-child(4) {
+    width: 300px;
+}
+
+body > div {
+    flex-grow: 9;
+}
+
+header {
+    display: inline-flex;
+    width: 100%;
+}
+
+header *{
+    align-self: center;
+}
+
+header a, header h1 {
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+header [href="https://www.spotify.com/it/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2Fartist%2F4tZwfgrHOc3mvqYlEYSvVi"] {
+    margin-left: auto;
+}
+
+#background {
+    position: relative;
+    color: white;
+}
+
+#background div {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+ol li {
+    display: flex;
+}
+
+li div {
+    align-self: center;
+}
+
+li img {
+    margin-left: 1rem;
+}
+
+#section {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#section > div:nth-child(2) {
+    flex-shrink: 1;
+    padding: 1rem;  
+    border-radius: 20px;
+}
+
+#section div:nth-child(2) div {
+    width: 210px;
+    padding: 10px;
+}
+
+#section button img{
+    width: 25px;
+}
+
+ol li:nth-child(2) {
+    color: #1AB752;
+}
+
+ol li:hover {
+    color: #ccffde;
+}
