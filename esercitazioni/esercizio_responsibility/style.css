@@ -1,0 +1,58 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #D0D2D4;
+}
+
+header {
+    display: flex;
+}
+
+h1 {
+    align-self: center;
+}
+
+main > div:nth-child(2) {
+    display: inline-flex;
+    width: 400px;
+    align-self: center;
+
+    background-color: #FBFBFB;
+    justify-content: space-around;   
+}
+
+main div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 400px ;
+    gap: 1rem;
+    background-color: #FBFBFB;
+}
+
+.descr {
+    width: 300px;
+    text-align: center;
+    align-self: center;
+}
+
+main {
+display: flex;
+width: 100%;
+gap: 1rem;
+flex-direction: column;
+justify-content: space-around;
+}
+
+main div:last-child {
+    align-self: center;
+}
+
+main img {
+    align-self: center;
+}
