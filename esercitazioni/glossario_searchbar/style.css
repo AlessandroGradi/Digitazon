@@ -1,0 +1,42 @@
+section {
+    display:flex;
+    flex-direction: column;
+    background-color: #cdcdcd;
+}
+
+body form {
+    padding: 20px;
+}
+
+/* stile 2 */
+#div2 {
+    background-color: #7282FB;
+}
+
+#search2 {
+    width: 300px;
+    border-right: none;
+    margin-right: -10px;
+    border-radius: 6px;
+
+    border: #262b56;
+}
+
+#submit2 {
+    background-color: #9E96FC;
+    border: none;
+    margin-left: 0;
+}
+
+[src="img/lente.png"] {
+    width: 11px;
+}
+
+
+#submit2 {
+    border-radius: 6px;
+    border-bottom-left-radius:0px;
+    border-top-left-radius:0px;
+}
+
+/* stile 3 */

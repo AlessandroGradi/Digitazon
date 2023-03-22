@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #7744F8;
+
+}
+
+#nav_links {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+nav > img {
+    flex-grow: 1;
+    width: 50px;
+}
+
+nav input{
+    flex-grow: 5;
+}
+
+nav img {
+    flex-grow: 1;
+}
+
+#sidebar {
+    flex-grow: 1;
+    background-color: #F4F4F7;
+}
+
+#mails {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+}
+
+#h_mails {
+    display: flex;
+    justify-content: space-between;
+    background-color: #afafaf;
+}
+
+#h_mails img {
+    align-self: center;
+}
+
+#contacts {
+    flex-grow: 1;
+}
