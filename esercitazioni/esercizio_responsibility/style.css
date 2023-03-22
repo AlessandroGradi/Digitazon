@@ -21,7 +21,6 @@ main > div:nth-child(2) {
     display: inline-flex;
     width: 400px;
     align-self: center;
-
     background-color: #FBFBFB;
     justify-content: space-around;   
 }
@@ -55,4 +54,12 @@ main div:last-child {
 
 main img {
     align-self: center;
+}
+
+@media screen and (min-width: 480px) {
+
+    body {
+        background-color: palevioletred;
+    }
+
 }
