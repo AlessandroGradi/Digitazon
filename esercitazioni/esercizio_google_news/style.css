@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: #202124;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.help_settings {
+    position: relative;
+    right: 150px;
+    display: flex;
+    gap: 1rem;
+}
+
+.search_bar {
+    display: flex;
+}
+
+.search_bar button, .search_bar input {
+    background-color: #3C4043;
+}
+
+.search_bar input {
+   width: 600px;
+   height: 40px;
+   border-radius: 5px; 
+}
+
+.search_bar button {
+    height: 40px;
+
+    border-radius: 5px; 
+}
+
+.dots_user {
+    display: flex;
+    gap: 1rem;
+}
+
+.dots_user [src="img/dots.png"]  {
+    position: relative;
+    top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 10rem 1rem 10rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+}
