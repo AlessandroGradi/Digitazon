@@ -25,6 +25,11 @@ main > div:nth-child(2) {
     justify-content: space-around;   
 }
 
+section {
+    display: flex;
+    flex-direction: column; 
+}
+
 main div:first-child {
     display: flex;
     flex-direction: column;
@@ -56,10 +61,12 @@ main img {
     align-self: center;
 }
 
-@media screen and (min-width: 480px) {
-
-    body {
-        background-color: palevioletred;
+@media screen and (min-width: 850px) {
+    main div:first-child {
+        display: flex;
+        flex-direction: row;
+        width: 800px;
+        gap: 5rem;
+        padding: 1rem;
     }
-
 }
