@@ -7,13 +7,15 @@
     <title>Document</title>
 </head>
 <body>
+
     <!-- trovare la stringa piu lunga tra due stringhe salvate in 2 variabili e 
     stamparla in output con l'aggiunta del messaggio 'la stringa piu lunga e:' -->
 
         <script>
             let a = 'acqua';
             let b = 'barile';
-            
+
+
             if (a.length > b.length) {
             console.log ('la stringa piu lunga e:' +a)    
             }
@@ -22,17 +24,39 @@
             } else {
                 console.log ('Le stringhe sono uguali')
             }
-            
-    // // creare una variabile stringa con un valore a piacere e stampare i suoi 
-    // caratteri invertiti separati da - su un'unica riga
-
-    
-
-
-
-
 
         </script>
 
+    <!-- // // creare una variabile stringa con un valore a piacere e stampare i suoi 
+    // caratteri invertiti separati da - su un'unica riga -->
+
+        <script>
+            let c = 'serpe';
+            let result = ''
+            let space = '-'
+
+            result=c.charAt(4) + space+c.charAt(3) + space+c.charAt(2) + space+c.charAt(1) + space+c.charAt(0)
+            
+            console.log(result)
+        </script>
+
+    <!-- // crea due variabili x e y con valori a piacere
+    // se x e' minore o uguale a y stampa green
+    // in quel contesto se y e' uguale a zero stampa red
+    // se e' maggiore di y stampa blu -->
+
+        <script>
+            let x = '10';
+            let y = '5';
+            if (x <= y) {
+                console.log('green');
+            if (y == 0) {
+                console.log('red');
+            }
+            }
+            else {
+                console.log('blue')
+            }
+        </script>
 </body>
 </html>
