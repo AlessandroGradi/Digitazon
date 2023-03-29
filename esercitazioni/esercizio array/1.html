@@ -46,7 +46,16 @@ MO
 (la prima e l'ultima lettera di ogni valore dell'array in senso invertito) -->
 
 <script>
-    
+
+    let nomi = ["mario", "luigi", "peach", "daisy"];
+    for (let i= nomi.length-1;
+        i >= 0;
+        i = i-1)
+        {
+            let risultato = (nomi[i].charAt(0) + nomi[i].charAt(nomi[i].length-1))
+            console.log(risultato.toUpperCase())
+        }
+
 </script>
 
 <!-- Ex 4:
