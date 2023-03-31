@@ -12,18 +12,17 @@
     stamparla in output con l'aggiunta del messaggio 'la stringa piu lunga e:' -->
 
         <script>
-            let a = 'acqua';
-            let b = 'barile';
+            let a = "casa"
+            let b = "catamarano"
 
-
-            if (a.length > b.length) {
-            console.log ('la stringa piu lunga e:' +a)    
+            if (a.length>b.length) {
+                console.log ('la stringa piu lunga e:' + a)
             }
-            else if (a.length < b.length) {
-                console.log ('La stringapiu lunga e:' +b)
-            } 
+            else if (b.length>a.length) {
+                console.log ('la stringa piu lunga e:' + b)
+            }
             else {
-                console.log ('Le stringhe sono uguali')
+                console.log ('le stringhe sono uguali')
             }
 
         </script>
@@ -32,13 +31,13 @@
     // caratteri invertiti separati da - su un'unica riga -->
 
         <script>
-            let c = 'serpe';
-            let result = ''
-            let space = '-'
+            let inversione = "pasta";
+            spazio = ' ';
 
-            result=c.charAt(4) + space+c.charAt(3) + space+c.charAt(2) + space+c.charAt(1) + space+c.charAt(0)
-            
-            console.log(result)
+            result = spazio+inversione.charAt(4) + spazio+inversione.charAt(3) + spazio+inversione.charAt(2) 
+            + spazio+inversione.charAt(1) + spazio+inversione.charAt(0)
+            console.log (result)
+
         </script>
 
     <!-- // crea due variabili x e y con valori a piacere
@@ -49,11 +48,12 @@
         <script>
             let x = '10';
             let y = '5';
-            if (x <= y) {
-                console.log('green');
-            if (y == 0) {
-                console.log('red');
-            }
+
+            if (x<=y) {
+                console.log('green')
+                if (y==0) {
+                    console.log('red')
+                }
             }
             else {
                 console.log('blue')
