@@ -26,8 +26,26 @@
     - anna
     - 100
     Nota: se il valore non è una stringa, ma un numero, stampa il numero moltiplicato per 10.
-    Se il valore non è una stringa ne un numero, stampa 'errore'
+    Se il valore non è una stringa ne un numero, stampa 'errore' -->
+
+    <script>
     
+    function invertString(str) {
+      if (typeof str === 'string') {
+        return str.split('').reverse().join('');
+      } else if (typeof str === 'number') {
+        return str * 10;
+      } else {
+        return 'errore';
+      }
+    }
+
+
+
+    </script>
+    
+
+<!-- Ex 1
     Ex 3
     crea una funzione 'xRayArray' che prende in ingresso un array e mi stampa:
     - la lunghezza dell'array
