@@ -30,22 +30,11 @@
 
     <script>
     
-    function invertString(str) {
-      if (typeof str === 'string') {
-        return str.split('').reverse().join('');
-      } else if (typeof str === 'number') {
-        return str * 10;
-      } else {
-        return 'errore';
-      }
-    }
-
-
 
     </script>
-    
 
-<!-- Ex 1
+
+<!--
     Ex 3
     crea una funzione 'xRayArray' che prende in ingresso un array e mi stampa:
     - la lunghezza dell'array
@@ -57,9 +46,20 @@
     - [10, 20, 30]
     - []
     - ['ciao', 100]
-    - 'ciao'
-    
-    Ex 4
+    - 'ciao' -->
+
+<script>
+
+function xRayArray (a1) {
+  console.log(a1.length)
+}
+
+const array1 = ['albero', 'camomilla', 'mele']
+console.log(xRayArray(array1))
+
+</script>
+
+    <!--  Ex 4
     crea una funzione 'isPalindrome' che prende una stringa in ingresso e mi dice se è palindroma.
     Chiamare la funzione con i seguenti valori:
     - anna
