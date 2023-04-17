@@ -22,5 +22,4 @@ function palindroma(a) {
     return a == inverti(a)
 }
 
-
 console.log(palindroma('esse'))
