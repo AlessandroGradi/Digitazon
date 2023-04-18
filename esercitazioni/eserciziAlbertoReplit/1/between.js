@@ -6,13 +6,18 @@
 //creo la funzione between
 //
 
-let a = (25)
-let b = (19)
-const = []
-
-function between(a, b) {
-    
+function between(c, d) {
+    const num = []
+    for (let i=c + 1; i<d; i++) {
+       num.push(i)
+    }
+    return num
 }
+
+let a = 2
+let b = 19
+
+console.log(between(a, b))
 
 // function between(c, d) {
 //     const array = []
