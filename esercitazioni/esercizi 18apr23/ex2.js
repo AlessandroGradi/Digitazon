@@ -19,3 +19,4 @@ return obj
 }
 
 console.log(makeObj('ciao', 10))
+console.log(makeObj('cane', 500))
