@@ -2,12 +2,16 @@
 // dati due numeri a e b in ingresso
 // ritorni un array che contiene tutti i numeri compresi tra a e b esclusi
 
+
+//creo la funzione between
+//
+
 let a = (25)
 let b = (19)
-const = 
+const = []
 
 function between(a, b) {
-
+    
 }
 
 // function between(c, d) {
