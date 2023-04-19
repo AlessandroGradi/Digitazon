@@ -2,7 +2,10 @@
 // date due stringhe in ingresso
 // ritorni la piu' lunga
 
-function biggerString(a, b) {
+
+//creo una funzione biggerString con in ingresso
+
+function biggerString(x, y) {
     if (a.length > b.length) {
         return a
     }
@@ -14,7 +17,7 @@ function biggerString(a, b) {
 const a = 'paradosso'
 const b = 'rana'
 
-console.log(biggerString())
+console.log(biggerString(a, b))
 
 //---------------------------------------------
 // let a = 'acqua';
