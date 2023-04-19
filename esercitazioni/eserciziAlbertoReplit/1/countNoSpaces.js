@@ -3,14 +3,15 @@
 // ritorni un intero n che rappresenti i caratteri presenti nella
 // string passata, senza contare gli spazi
 
-const string = 'cammello'
+
 let x = 0
+const string = 'cammello'
 
 function countNoSpaces(string) {
-    for (let i=0; i<=string; i++) {
-    let x = x++
+    for (let i=0; i<=string.length; i++) {
+        string.push(i)
     }
-    return x
+    return string
 }
 
-console.log(countNoSpaces())
+console.log(countNoSpaces(string))
