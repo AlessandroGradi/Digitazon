@@ -13,12 +13,12 @@
 //ritorna x
 //stampa la funzione con argomento str
 
-const str = 'salto in lungo'
+const str = 'sport salto in lungo'
 
 function countNoSpaces(str) {
     let x = 0
-    for (let i=0; i<=str.length; i++) {
-        if (str!=' ') {
+    for (let i=0; i<str.length; i++) {
+        if (str[i]!=' ') {
             x++
         }
     }
