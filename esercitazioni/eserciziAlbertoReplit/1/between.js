@@ -18,15 +18,3 @@ let a = 2
 let b = 19
 
 console.log(between(a, b))
-
-// function between(c, d) {
-//     const array = []
-//     for(let i = c + 1; i < d; i++) {
-//         array.push(i)
-//     }
-//     return array
-// }
-
-// let a = 5
-// let b = 9
-// console.log(between(a, b))
