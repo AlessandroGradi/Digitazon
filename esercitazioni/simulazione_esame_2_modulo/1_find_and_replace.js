@@ -63,6 +63,8 @@ function findIndex(arrtext) {
         }
     }
 } //console.log(findIndex(arrtext)) --------OK
+//funzione superflua
+
 
 // TOGLIERE LA STRINGA WORD
 // o meglio l'inverso:
@@ -104,6 +106,7 @@ function pushString(y) {
     y.push(newword)
     return y
 }
+
 
 console.log(pushString(y)) 
 

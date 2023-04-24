@@ -6,17 +6,18 @@ let word = 'angostura'
 let vowels = ['a', 'e', 'i', 'o', 'u']
 
 
-function countVowels(word) {
+function countVowels(word, vowels) {
     let x = 0
     for (i=0; i<word.length; i++) {
-        if (i==vowels[i]) {
-            x++
-        }
+        for (z=0; z<vowels.length; z++)
+            if (word[i]==vowels[z]) {
+                x++
+            }
     }
     return x
 }
 
-console.log(countVowels(word))
+console.log(countVowels(word, vowels))
 
 /*
 i   x
