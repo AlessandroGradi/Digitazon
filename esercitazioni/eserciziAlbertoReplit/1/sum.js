@@ -2,11 +2,16 @@
 // dato un array di numeri in ingresso
 // ritorni la somma dei numeri contenuti nell'array -->
 
+//sommo ogni numero a quello successivo
 
-let arr = [4, 3, 6, 10, 7]
+let arr = [5, 10, 15, 10]
+let s = arr[0]
 function sum(arr) {
-    for (i=0; i<=arr.length; i++);
-    return (i+(i++)-(i--))
+    for (i=0; i<arr.length; i++) {
+        s += arr[++i]
+        
+    }
+    return s
 }
 
 console.log(sum(arr))

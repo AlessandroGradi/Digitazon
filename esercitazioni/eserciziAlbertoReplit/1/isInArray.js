@@ -3,5 +3,19 @@
 // ritorna true se il numero e' presente nell'array
 // false altrimenti
 
-function isInArray(n, ns) {
+//creo un array n di numeri interi
+//
+
+let numbers = [4, 6, 56, 47, 367, 23]
+let n = 23
+let nboolean = false
+function isInArray(numbers, n) {
+    for (i=0; i<numbers.length; i++)
+        if (numbers[i]==n) {
+            nboolean = true
+        }
+    return nboolean
 }
+
+
+console.log(isInArray(numbers, n))
