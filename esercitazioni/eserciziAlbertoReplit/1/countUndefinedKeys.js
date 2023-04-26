@@ -5,7 +5,7 @@
 
 
 // creo un oggetto obj
-// creo un contatore x
+// creo un contatore count
 // creo una funzione chiamata countUndefinedKeys con in ingresso obj
 // itero sull'oggetto
     // se il valore della chiave e' uguale a undefined || null...
@@ -14,13 +14,14 @@
 const obj = {1:"flour", 2:"sugar", 3:"", 4:"salt", 5:undefined, 6:"0", 7:null}
 
 function countUndefinedKeys(obj) {
-    let x = 0
-    for (let i=0; i<obj.length; i++) {
-        if (object.keys(obj) == null || object.keys(obj) == undefined) {
-            x++
+    let count = 0
+    for (let i=0; i<Object.keys(obj).length; i++) {
+        let key = Object.keys(obj)[i]
+        if (obj[key] == null) {
+            count++
         }
     }
-return x
+return count
 }
 
 console.log(countUndefinedKeys(obj))

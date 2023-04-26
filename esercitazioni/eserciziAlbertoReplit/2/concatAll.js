@@ -1,10 +1,9 @@
-// scrivere una funzione chiamata reverse che 
-// data una stringa in ingresso
-// ritorni la stringa inversa
+// scrivere una funzione chiamata concatAll che 
+// dato in ingresso un numero variabile di array
+// ritorni un nuovo array che e' la concatenazione di tutti gli array
+// passati
 
-// ad esempio "ciao" deve ritornare "oaic"
-// ad esempio "Jessica" deve ritornare "acisseJ"
+// ad esempio: con [1] [2] [3] ritornerebbe [1,2,3]
+// ad esempio: con [1, 2, 3, 4] ritornerebbe [1, 2, 3, 4]
+// ad esempio: con [1, 2, 3] [1, 2] [3] ritornerebbe [1, 2, 3, 1, 2, 3]
 
-
-function reverse(string) {
-}
