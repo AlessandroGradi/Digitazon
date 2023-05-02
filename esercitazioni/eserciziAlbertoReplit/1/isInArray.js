@@ -7,7 +7,7 @@
 //
 
 let numbers = [4, 6, 56, 47, 367, 23]
-let n = 23
+let n = 56
 let nboolean = false
 function isInArray(numbers, n) {
     for (i=0; i<numbers.length; i++)
@@ -19,3 +19,24 @@ function isInArray(numbers, n) {
 
 
 console.log(isInArray(numbers, n))
+
+
+
+/*
+let numbers = [4, 6, 56, 47, 367, 23]
+let n = 57
+let nboolean = false
+function isInArray(numbers, n) {
+    for (i=0; i<numbers.length; i++)
+        if (numbers[i]!==n) {
+            continue
+        }
+        else {
+            nboolean = true
+        }
+    return nboolean
+}
+
+
+console.log(isInArray(numbers, n))
+*/
