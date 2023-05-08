@@ -1,3 +1,5 @@
+import { Fetch } from './components/Fetch';
+import { InputCopy } from './components/InputCopy';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
+      
+      <Fetch></Fetch>
     </div>
   );
 }
