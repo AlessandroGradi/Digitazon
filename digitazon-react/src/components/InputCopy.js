@@ -1,12 +1,14 @@
+import { useState, useEffect } from 'react'
+
 export function InputCopy(){
     const [inputA,setInputA] = useState('')
     const [inputB,setInputB] = useState('')
-    const [ok,setOk] = useState()
+    const [ok,setOk] = useState('')
 
 
     useEffect(()=>{
       if(inputA != '' && inputB != ''){
-        setOk('funzione')
+        setOk('funziona')
       }
       else{
         setOk('')

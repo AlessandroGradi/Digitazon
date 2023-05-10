@@ -1,11 +1,15 @@
-import { Fetch } from './components/Fetch';
-import { InputCopy } from './components/InputCopy';
-import logo from './logo.svg';
+//import { Fetch } from './components/Fetch';
+//import { InputCopy } from './components/InputCopy';
+//import { Hook } from './components/InputHook';
+//import { HookCopy } from './components/InputHookCopy';
+import { MyChat } from './components/Chat';
+//import "./components/stylechat.css";
+//import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    /*<div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,9 +23,13 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-      
-      <Fetch></Fetch>
+      </header>*/
+    <div>
+      <MyChat />
+      {/* <InputHookCopy /> */}
+      {/* <InputHook /> */}
+      {/* <InputCopy /> */}
+      {/* <Fetch /> */}
     </div>
   );
 }

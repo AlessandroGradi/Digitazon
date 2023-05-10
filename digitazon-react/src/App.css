@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,64 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* ================================STILE CHAT===================================*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
 }
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.BoxChat {
+  width: 300px;
+  heigt: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.BoxSendMsg {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: yellow;
+  border: 5px solid;
+  border-radius: 20px;
+}
+
+.BoxSendMsg input {
+  height: 1rem;
+
+  flex-grow: 2;
+}
+
+.BoxSendMsg button {
+  height: 30px;
+  flex-grow: 1;
+  background: none;
+  border: none
+}
+
+.BoxSendMsg button:active {
+  background-color: rgb(255, 213, 0);
+  border-radius: 20px
+}
+
+
+
+
+
+
