@@ -38,7 +38,7 @@
 } */
 
 /* ================================STILE CHAT===================================*/
-
+/* 
 body {
   display: flex;
   flex-direction: column;
@@ -89,7 +89,20 @@ header {
 .BoxSendMsg button:active {
   background-color: rgb(255, 213, 0);
   border-radius: 20px
+} */
+
+/* =======================================Cells============================================ */
+
+/* .howmanycells {
+  width: 400px
 }
+
+.cell {
+  width: 100px;
+} */
+
+/* ========================================ToDoList====================================*/
+
 
 
 

@@ -1,8 +1,10 @@
+import ToDoList from './components/ToDoList'
+// import Cells from './components/Cells';
 //import { Fetch } from './components/Fetch';
 //import { InputCopy } from './components/InputCopy';
 //import { Hook } from './components/InputHook';
 //import { HookCopy } from './components/InputHookCopy';
-import { MyChat } from './components/Chat';
+//import { MyChat } from './components/Chat';
 //import "./components/stylechat.css";
 //import logo from './logo.svg';
 import './App.css';
@@ -25,7 +27,9 @@ function App() {
         </a>
       </header>*/
     <div>
-      <MyChat />
+      <ToDoList />
+      {/* <Cells /> */}
+      {/* <MyChat /> */}
       {/* <InputHookCopy /> */}
       {/* <InputHook /> */}
       {/* <InputCopy /> */}
