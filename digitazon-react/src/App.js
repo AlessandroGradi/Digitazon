@@ -1,5 +1,6 @@
-import ToDoList from './components/ToDoList'
-// import Cells from './components/Cells';
+import Contatore from "./components/contatore"
+//import ToDoList from './components/ToDoList'
+//import Cells from './components/Cells';
 //import { Fetch } from './components/Fetch';
 //import { InputCopy } from './components/InputCopy';
 //import { Hook } from './components/InputHook';
@@ -27,6 +28,7 @@ function App() {
         </a>
       </header>*/
     <div>
+      <Contatore />
       <ToDoList />
       {/* <Cells /> */}
       {/* <MyChat /> */}
