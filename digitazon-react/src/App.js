@@ -1,4 +1,6 @@
-import Contatore from "./components/contatore"
+import Quasi from "./components/Quasi"
+//import TicTacToe from "./components/TicTacToe"
+//import Contatore from "./components/contatore"
 //import ToDoList from './components/ToDoList'
 //import Cells from './components/Cells';
 //import { Fetch } from './components/Fetch';
@@ -28,13 +30,15 @@ function App() {
         </a>
       </header>*/
     <div>
-      <Contatore />
-      <ToDoList />
+      <Quasi />
+      {/* <TicTacToe /> */}
+      {/* <Contatore />
+      <ToDoList /> */}
       {/* <Cells /> */}
       {/* <MyChat /> */}
       {/* <InputHookCopy /> */}
       {/* <InputHook /> */}
-      {/* <InputCopy /> */}
+      {/*<InputCopy />*/}
       {/* <Fetch /> */}
     </div>
   );

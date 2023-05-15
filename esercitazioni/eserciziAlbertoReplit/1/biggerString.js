@@ -5,7 +5,7 @@
 
 //creo una funzione biggerString con in ingresso
 
-function biggerString(x, y) {
+function biggerString(a, b) {
     if (a.length > b.length) {
         return a
     }
@@ -14,7 +14,7 @@ function biggerString(x, y) {
     }
 }
 
-const a = 'paradosso'
+const a = '2'
 const b = 'rana'
 
 console.log(biggerString(a, b))

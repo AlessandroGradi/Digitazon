@@ -105,6 +105,32 @@ header {
 
 /*==============================================Contatore=======================================*/
 
+/*============================TicTacToe=================================*/
+/*
+.board-row {
+  height: 30px;
+}
+
+.square {
+  height: 30px;
+  width: 30px;
+}
+*/
+
+/* =========================================Quasi====================================== */
+
+.quasibottone {
+  height: 50px;
+  width: 70px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  height: 20px;
+  align-self: center;
+}
 
 
 
