@@ -1,4 +1,5 @@
-import Quasi from "./components/Quasi"
+import Forum from "./components/Forum"
+//import Quasi from "./components/Quasi"
 //import TicTacToe from "./components/TicTacToe"
 //import Contatore from "./components/contatore"
 //import ToDoList from './components/ToDoList'
@@ -30,7 +31,8 @@ function App() {
         </a>
       </header>*/
     <div>
-      <Quasi />
+      <Forum />
+      {/* <Quasi /> */}
       {/* <TicTacToe /> */}
       {/* <Contatore />
       <ToDoList /> */}

@@ -119,7 +119,7 @@ header {
 
 /* =========================================Quasi====================================== */
 
-.quasibottone {
+/* .quasibottone {
   height: 50px;
   width: 70px;
   background-color: blueviolet;
@@ -130,6 +130,70 @@ header {
 button {
   height: 20px;
   align-self: center;
+} */
+
+/*=============================================Forum==============================================*/
+
+.divvone {
+  padding: 50px;
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column
+}
+
+.header {
+  text-align: center;
+  letter-spacing: 2rem;
+}
+
+.header h1:first-child {
+  color: rgb(171, 228, 209);
+  font-weight: 900;
+  font-size: 80px;
+  margin: -40px;
+  letter-spacing: 2rem;
+}
+
+.divvetto {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 500px;
+  margin-right: 20px;
+}
+
+.post p:first-letter{
+  font-size:250%;
+  float:left;
+  margin-top: -5px;
+  padding-right:10px;
+  text-transform: uppercase;
+}
+
+.comment p:first-letter {
+  text-transform: uppercase;
+}
+
+.post {
+  border: 2px dotted grey;
+  padding-left: 0.5rem;
+  padding-right: 0.5 rem;
+  padding-top: 0px;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.comment {
+  margin-left: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5 rem;
+  padding-top: 0px;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 2px dotted rgb(255, 215, 182);
 }
 
 
