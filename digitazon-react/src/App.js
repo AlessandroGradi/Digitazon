@@ -1,3 +1,4 @@
+// import Api from "./components/Api"
 import Forum from "./components/Forum"
 //import Quasi from "./components/Quasi"
 //import TicTacToe from "./components/TicTacToe"
@@ -31,6 +32,7 @@ function App() {
         </a>
       </header>*/
     <div>
+      {/* <Api /> */}
       <Forum />
       {/* <Quasi /> */}
       {/* <TicTacToe /> */}
